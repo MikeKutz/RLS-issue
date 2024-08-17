@@ -1,6 +1,6 @@
 prompt creating user
 create user data_schema identified by Change0nInstall
-  default tablespace  data
+  default tablespace  data -- DATA for OCI; USERS for FREE/XE
   quota  20  M on data
   account unlock;
 
